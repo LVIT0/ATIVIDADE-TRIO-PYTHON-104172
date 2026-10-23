@@ -8,7 +8,7 @@ while True:
     
     total = preco * quantidade
     
-    if quantidade >= 5:
+    if quantidade <= 5:
         desconto = total * 0.02
     elif 6 <= quantidade <= 10:
         desconto = total * 0.03
@@ -20,4 +20,5 @@ while True:
     
     print(f"Produto: {produto}")
     print(f"Quantidade: {quantidade}")
-    print(f"Preço com desconto: {preco_com_desconto}")
+    print(f"Desconto: {desconto}")
+    print(f"Preço com desconto: {preco_com_desconto:2f}")

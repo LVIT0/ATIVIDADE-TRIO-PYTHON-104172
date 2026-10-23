@@ -8,7 +8,7 @@ import time
 # CRITÉRIOS DE ACEITE
 # Mostrar os dois números, o operador escolhido e o resultado
 # Operador inválido cai no case _ com uma mensagem de aviso
-# Bônus: impedir a divisão por zero
+# Bônus: impedir a divisão por zero 
 
 while True:
     print('OPERAÇÕES')

@@ -8,7 +8,7 @@ numeros_pares = []
 numeros_impares = []
 
 for i in range(5):
-    numero = float(input(f'Digite um número: '))
+    numero = float(input('Digite um número: '))
     ambos.append(numero)
     if numero % 2 == 0:
         numeros_pares.append(numero)

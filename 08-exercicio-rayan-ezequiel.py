@@ -22,11 +22,12 @@ tentativas = 0
 while True:
     # login
     time.sleep(3)
+    os.system('cls' if os.name == 'nt' else 'clear')
+
     print('Clinca Vida Plena')
     print('LOGIN')
     usuario_login = input('Digite seu nome de usuario: ')
     senha_login = input('Digite sua senha: ')
-    os.system('cls' if os.name == 'nt' else 'clear')
     
     if tentativas == 3:
         print('Login foi bloqueado, tente novamente em 72 horas.')

@@ -32,6 +32,7 @@ while True:
         continue
     elif escolha == 2:
         print(f'Total de famílias: {familias}.\nMédia de salário: {sum(salarios)  / familias:.2f}.\nMédia de filhos: {filhos / familias:.0f}')
+        print(f'Maior salário: {max(salarios)}\nMenor salário: {min(salarios)}')
         break
     else:
         print('Error.\nOpcção inválida.\nTente novamente mais tarde.')
